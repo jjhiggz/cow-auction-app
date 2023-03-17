@@ -12,9 +12,10 @@ function App() {
 
   return (
     <div className="App">
+      <h1>some header</h1>
       {cows.map((cow) => (
         <div key={cow.id}>
-          <h1>{cow.name}</h1>
+          <h3>{cow.name}</h3>
           <p>Breed: {cow.weeningWeight}</p>
           <p>Birth Weight: {cow.birthingWeight}</p>
           <p>Ween Weight: {cow.weeningWeight}</p>
