@@ -12,6 +12,9 @@ function App() {
 
   return (
     <div className="App">
+      <header>
+        <h1>Take a Chance' on a Cow</h1>
+      </header>
       {cows.map((cow) => (
         <div key={cow.id}>
           <h1>{cow.name}</h1>
